@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--加载配置文件-->
+    <!--<properties resource="jdbc.properties"/>-->
+
+    <!--配置pojo别名,就是pojo包下所有的类首字母小写之后的名字-->
+    <typeAliases>
+        <!--扫描包-->
+        <package name="cn.luoyudi.pojo"/>
+    </typeAliases>
+
+    <!--<environments default="development">-->
+    <!--    <environment id="development">-->
+    <!--        <transactionManager type="JDBC"/>-->
+    <!--        <dataSource type="POOLED">-->
+    <!--            <property name="driver" value="${jdbc.driver}"/>-->
+    <!--            <property name="url" value="${jdbc.url}"/>-->
+    <!--            <property name="username" value="${jdbc.username}"/>-->
+    <!--            <property name="password" value="${jdbc.password}"/>-->
+    <!--        </dataSource>-->
+    <!--    </environment>-->
+    <!--</environments>-->
+
+    <!--配置mapper映射文件的位置,加载mapper映射-->
+    <!--<mappers>-->
+    <!--    <package name="cn.luoyudi.mapper"/>-->
+    <!--</mappers>-->
+
+</configuration>
